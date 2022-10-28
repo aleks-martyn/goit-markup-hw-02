@@ -1,0 +1,14 @@
+body {
+color: #000000; background-color: #FFffff;
+}
+
+/*---Колір основного тексту #212121---*/
+/*---Вторинний колір тексту #757575---*/
+/*---Black color logo #000000---*/
+/*---Accent color #2196F3---*/
+/*---Первинний колір фону #FFFFFF---*/
+/*---Вторинний колір фону #2F303A---*/
+.logo {color: #000000; text-decoration: none;}
+.logo:hover,
+.logo:fokus {color: #2196F3;}
+.logo-link {color: #2196F3;}
