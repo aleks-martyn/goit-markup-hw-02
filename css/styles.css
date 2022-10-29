@@ -65,3 +65,18 @@ color: var(--primary-text-color);
 .logo-footer {color: var(--white-color);}
 .address .link {color: var(--secondary-text-color);}
 .address-link {color: var(--white-color);}
+
+
+
+/*--------------Portfolio-----------------*/
+
+.portfolio-title {color: var(--title-text-color);}
+
+/*---filter---*/
+.portfolio-filter .button {color: var(--title-text-color);}
+.portfolio-filter .button:hover,
+.portfolio-filter .button:focus {color: var(--white-color); background-color: var(--accent-color);}
+
+/*---portfolio-list---*/
+.portfolio-subtitle {color: var(--title-text-color);}
+.portfolio-text {color: var(--primary-text-color);}
