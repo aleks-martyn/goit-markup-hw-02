@@ -1,5 +1,6 @@
-/*---Колір основного тексту #212121---*/
-/*---Вторинний колір тексту #757575---*/
+/*---Колір основного тексту #757575---*/
+/*---Колір тексту заголовків #212121---*/
+/*---Вторинний колір тексту rgba(255, 255, 255, 0.6)---*/
 /*---Black color logo #000000---*/
 /*---Accent color #2196F3---*/
 /*---Первинний колір фону #FFFFFF---*/
@@ -7,38 +8,60 @@
 
 
 :root {
-    --primary-text-color: #212121;
-    --title-text-color: #757575;
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
     --accent-color: #2196F3;
     --white-color: #FFFFFF;
     --secondary-background-color: #2F303A;
+    --secondary-text-color: rgba(255, 255, 255, 0.6);
 }
 
 
 body {
-color: #757575;
- background-color: #FFFFFF;
+color: var(--primary-text-color);
+ background-color: var(--white-color);
 }
 
 /*---logo header---*/
-.logo-header {color: #000000; text-decoration: none;}
+.logo-header {color: var(--title-text-color); text-decoration: none;}
 .logo-header:hover,
-.logo-header:focus {color: #2196F3;}
-.logo-link {color: #2196F3;}
+.logo-header:focus {color: var(--accent-color);}
+.logo-link {color: var(--accent-color);}
 .list {list-style: none;}
 
 /*---site nav---*/
-.site-nav .link {color: #212121;}
+.site-nav .link {color: var(--title-text-color);}
 
 .site-nav .link:hover,
-.site-nav .link:focus {color: #2196F3;}
+.site-nav .link:focus {color: var(--accent-color);}
+
+.site-nav .link.current {color: var(--accent-color);}
 
 /*---hero---*/
-.hero-title {color: #FFFFFF;}
-.hero {background-color: #2F303A;}
+.hero-title {color: var(--white-color);}
+.hero {background-color: var(--secondary-background-color);}
 
 /*---section---*/
-.section-title {color: #212121;}
+.section-title {color: var(--title-text-color);}
 
 /*---features---*/
-.feature .title {color: #212121;}
+.feature .title {color: var(--title-text-color);}
+
+/*---team---*/
+.team-title {color: var(--title-text-color);}
+
+/*---buttons---*/
+.button.primary {color:var(--primary-text-color);}
+.button.primary:hover,
+.button.primary:focus {color: var(--accent-color);}
+
+.button.secondary {color: var(--title-text-color); background-color: var(--white-color);}
+.button.secondary:hover,
+.button.secondary:focus {color: var(--white-color); background-color: var(--accent-color);}
+.pointer {cursor: pointer;}
+
+/*---footer---*/
+.page-footer {background-color: var(--secondary-background-color);}
+.logo-footer {color: var(--white-color);}
+.address .link {color: var(--secondary-text-color);}
+.address-link {color: var(--white-color);}
