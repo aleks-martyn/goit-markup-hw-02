@@ -5,6 +5,7 @@
 /*---Accent color #2196F3---*/
 /*---Первинний колір фону #FFFFFF---*/
 /*---Вторинний колір фону #2F303A---*/
+/*---Попелястий колір фону #F5F4FA---*/
 
 
 :root {
@@ -14,23 +15,37 @@
     --white-color: #FFFFFF;
     --secondary-background-color: #2F303A;
     --secondary-text-color: rgba(255, 255, 255, 0.6);
+    --ashen-background-color: #F5F4FA;
 }
 
 
 body {
 color: var(--primary-text-color);
  background-color: var(--white-color);
+ font-family: Roboto, sans-serif;
 }
 
 /*---logo header---*/
-.logo-header {color: var(--title-text-color); text-decoration: none;}
+.logo {font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+     text-decoration: none;}
+.logo-header {color: var(--title-text-color);}
 .logo-header:hover,
 .logo-header:focus {color: var(--accent-color);}
 .logo-link {color: var(--accent-color);}
 .list {list-style: none;}
 
 /*---site nav---*/
-.site-nav .link {color: var(--title-text-color);}
+.site-nav .link {color: var(--title-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+text-decoration: none;
+}
 
 .site-nav .link:hover,
 .site-nav .link:focus {color: var(--accent-color);}
@@ -48,10 +63,17 @@ color: var(--primary-text-color);
 .feature .title {color: var(--title-text-color);}
 
 /*---team---*/
+.team-section {background-color: var(--ashen-background-color);}
 .team-title {color: var(--title-text-color);}
 
 /*---buttons---*/
-.button.primary {color:var(--primary-text-color);}
+.contacts .button {font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+text-decoration: none;
+}
+.button.primary {color: var(--primary-text-color);}
 .button.primary:hover,
 .button.primary:focus {color: var(--accent-color);}
 
@@ -61,10 +83,11 @@ color: var(--primary-text-color);
 .pointer {cursor: pointer;}
 
 /*---footer---*/
+.address {font-style: normal;}
 .page-footer {background-color: var(--secondary-background-color);}
 .logo-footer {color: var(--white-color);}
 .address .link {color: var(--secondary-text-color);}
-.address-link {color: var(--white-color);}
+.address .address-link {color: var(--white-color);}
 
 
 
@@ -73,6 +96,7 @@ color: var(--primary-text-color);
 .portfolio-title {color: var(--title-text-color);}
 
 /*---filter---*/
+.portfolio-filter .button {font-family: inherit;}
 .portfolio-filter .button {color: var(--title-text-color);}
 .portfolio-filter .button:hover,
 .portfolio-filter .button:focus {color: var(--white-color); background-color: var(--accent-color);}
