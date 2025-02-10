@@ -24,6 +24,11 @@ body {
   letter-spacing: 0.03em;
 }
 
+ul,
+ol {
+  list-style: none;
+}
+
 /*---logo header---*/
 
 .logo {
@@ -97,7 +102,7 @@ body {
 
 /*---features---*/
 
-.feature .title {
+.features .title {
   color: var(--title-text-color);
   font-size: 14px;
   line-height: 1.14;
