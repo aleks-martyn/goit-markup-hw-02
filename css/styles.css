@@ -52,10 +52,6 @@ ol {
   color: var(--accent-color);
 }
 
-.list {
-  list-style: none;
-}
-
 /*---site nav---*/
 
 .site-nav .link {
