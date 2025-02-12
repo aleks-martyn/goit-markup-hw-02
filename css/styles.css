@@ -24,8 +24,11 @@ body {
   letter-spacing: 0.03em;
 }
 
-ul,
-ol {
+button {
+  cursor: pointer;
+}
+
+ul {
   list-style: none;
 }
 
@@ -160,10 +163,6 @@ ol {
 .button.secondary:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
-}
-
-.pointer {
-  cursor: pointer;
 }
 
 /*---footer---*/
