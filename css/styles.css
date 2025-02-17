@@ -132,22 +132,17 @@ ul {
   line-height: 1.19;
 }
 
-/*---buttons---*/
+/*---links & buttons---*/
 
-.contacts .button {
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
-
-.button.primary {
+.link {
   font-size: 14px;
-  color: var(--primary-text-color);
 }
 
-.button.primary:hover,
-.button.primary:focus {
-  color: var(--accent-color);
+.contacts .link {
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
 }
 
 .button.secondary {
@@ -168,15 +163,6 @@ ul {
 
 /*---footer---*/
 
-.address {
-  font-style: normal;
-}
-
-.address-link {
-  font-weight: 400;
-  line-height: 1.71;
-}
-
 .page-footer {
   background-color: var(--secondary-background-color);
 }
@@ -185,14 +171,25 @@ ul {
   color: var(--white-color);
 }
 
-.address .link {
+.logo-footer:hover,
+.logo-footer:focus {
+  color: var(--accent-color);
+}
+
+.address-list .link {
+  font-style: normal;
   font-weight: 400;
   line-height: 1.71;
   color: var(--secondary-text-color);
 }
 
-.address .address-link {
+.address-list .address-link {
   color: var(--white-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
 }
 
 /*--------------Portfolio-----------------*/
