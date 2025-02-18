@@ -103,7 +103,7 @@ ul {
 
 /*---features---*/
 
-.feature-title {
+.feature-subtitle {
   font-size: 14px;
   line-height: 1.14;
   color: var(--title-text-color);
@@ -120,7 +120,7 @@ ul {
   background-color: var(--ashen-background-color);
 }
 
-.team-title {
+.team-subtitle {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -206,9 +206,6 @@ ul {
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
-}
-
-.portfolio-filter .button {
   color: var(--title-text-color);
 }
 
